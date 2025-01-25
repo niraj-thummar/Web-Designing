@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs-page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Culture.html">Culture</a></li>
+                <li><a href="/landmarks.html">landmarks</a></li>
+                <li><a href="/cuisine.html">Cuisine</a></li>
+                <li><a href="/ContactUs.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <p>Please fill out the form any inquiries or to register as a student.</p>
+
+        <form action="/action.php">
+            <h2>Student Registration Form</h2>
+            <label for="name">First Name:</label>
+            <input type="text" id="name" placeholder="Enter your first name" name="name">
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender"><label for="male">Male</label>
+            <input type="radio" id="Female" name="gender"><label for="Female">Female</label>
+            <br>
+            <br>
+            <label for="NewsLetter">Subscribe to NewsLetter:</label>
+            <input type="checkbox" checked id="NewsLetter" name="NewsLetter">
+            <br>
+            <br>
+            <label for="state">State:</label>
+            <select name="state" id="state">
+                <option value="initial" disabled selected>Select your State</option>
+                <option value="gj">Gujarat</option>
+                <option value="mp">Madhya Pradesh</option>
+                <option value="up">Uttar Pradesh</option>
+                <option value="mh">Maharashtra</option>
+                <option value="rj">Rajasthan</option>
+                <option value="hp">Himachal Pradesh</option>
+            </select>
+            <br>
+            <br>
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" value="No File choosen">
+            <br>
+            <br>
+            <label for="Address">Address</label>
+            <textarea name="Address" id="Address" rows="5" cols="60" placeholder="Enter your full address"></textarea>
+            <br>
+            <br>
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date" name="date">
+            <br>
+            <br>
+            <label for="time">Preferred Interview Time:</label>
+            <input type="time" id="time" name="time">
+            <br>
+            <br>
+            <label for="mark">Marks:</label>
+            <input type="text" id="mark" name="mark">
+            <br>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+        <h3>More Information</h3>
+        <p>Explore government job opportunities on the official OJAS website:</p>
+        <iframe src="https://ojas.gujarat.gov.in/" frameborder="0"></iframe>
+    </main>
+    <footer>
+        <p><a href="/index.html">🔙Back to Home</a></p>
+        <p><em>Contact us at </em> <a href="mailto:info@incredibleindia.com" target="_blank">info@incredibleindia.com</a></p>
+        <p>©️ 2025 Incredible India Project</p>
+    </footer>
+</body>
+</html>
