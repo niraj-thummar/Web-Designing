@@ -1,0 +1,83 @@
+
+        body{
+            background-color: rgb(240, 237, 237)
+        }
+        h1{
+            text-align: center;
+            background-color: rgb(232, 113, 70);
+            height: 50px;
+            font-size: 40px;
+        }
+        #nav{
+            display: flex;
+            justify-content: space-around;
+            padding-left: 100px;
+            padding-right: 100px;
+            font-size: 20px;
+            background-color: rgb(55, 232, 55);
+            height: 40px;
+            padding-top: 20px;
+            font-size: 900;
+        }
+        #line p{
+            text-align: center;
+            color: rgb(13, 13, 176);
+            font-size: 20px;
+            font-weight: 900;
+        }
+        h2{
+            text-align: center;
+            color: red;
+            font-weight: 900;
+            font-size: 30px;
+            text-decoration: underline;
+            text-decoration-style:double ;
+            text-decoration-color: rgb(207, 100, 100);
+        }
+        p{
+            font-size: 15px;
+            font-weight: 500;
+        }
+        #india_map{
+           display: absolute;
+           margin-left: 300px;
+           border: 2px solid black;
+        }
+        #highlights{
+            line-height: 40px;
+            font-size: 18px;
+        }
+        #images{
+            display: absolute;
+            margin-left: 300px;
+            color:green;
+            font-weight: 550;
+        }
+        #dance{
+            line-height: 40px;
+            font-size: 18px;
+        }
+        #dance_image{
+            display: absolute;
+            margin-left: 300px;
+        }
+        #food{
+            line-height: 40px;
+            font-size: 18px;
+        }
+        #biryani{
+            display: absolute;
+            margin-left: 300px;
+        }
+        #street_food{
+            display: absolute;
+            margin-left: 300px;
+        }
+        footer{
+            background-color: yellow;
+            text-align: center;
+        }
+        footer p{
+            font-size: 18px;
+        }
+    
