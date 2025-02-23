@@ -18,8 +18,11 @@
     font-weight: 900;
 }
 .link:hover{
-    color:black;
     transform: scale(1.3);
+    color: black;
+}
+.link:active{
+    color: red;
 }
 h2{
     text-align: center;
@@ -37,7 +40,6 @@ h2{
 #diwali_photo{
     display: absolute;
     margin-left: 300px;
-    box-shadow: 10px 10px 10px gray;
 }
 #tableBody{
     color: maroon;
@@ -72,7 +74,7 @@ body::before{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://static.vecteezy.com/system/resources/previews/010/675/116/non_2x/independence-day-indian-flag-with-ashoka-chakra-water-color-background-free-vector.jpg');
+    background-image: url('https://t3.ftcdn.net/jpg/01/17/79/44/360_F_117794487_ttXDoXhw8pNK9F6XVvcTAgQUg4ncObJ8.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
