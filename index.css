@@ -10,7 +10,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('https://static.vecteezy.com/system/resources/previews/010/675/116/non_2x/independence-day-indian-flag-with-ashoka-chakra-water-color-background-free-vector.jpg');
+            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCpeMszw19yvfOXdU9XOwYYnCcenZWIPBXYwXApp3Hc5g8m3pll5bqevJmImSbyrzVg1S20MH2vyzRJ49LhABJG0nhM5j7rh9UzFiw4pZaCUf2qr14OyuoagvYaugbIeZTxuHZcPGHP9pv/s1600/incredible+india.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -113,9 +113,6 @@
         }
         .link:hover{
             transform: scale(1.3);
-        }
-        .link:active{
-            color: red;
         }
         #india_map:hover{
             transform: scale(1.1);
